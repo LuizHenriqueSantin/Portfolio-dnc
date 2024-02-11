@@ -5,6 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./assets/backgroud.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 code {

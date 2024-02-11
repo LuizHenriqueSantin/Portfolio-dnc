@@ -1,0 +1,32 @@
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.container h1{
+    margin-bottom: -1.75vh;
+}
+
+.container p{
+    font-size: 2vh;
+}
+
+.skills{
+    width: 80vw;
+    background-color: rgba(1, 9, 28, 0.75);
+    border-radius: 5vh;
+}
+
+.cards img{
+    width: 7vw;
+    padding: 2vw;
+}
+
+.cards img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}

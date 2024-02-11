@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding-inline-start: 0px;
+}
+
+.navbar li{
+    padding: 15px;
+}
+
+.navbar a{
+    color: white !important;
+    text-decoration: none;
+}
+
+.navbar li:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+    cursor: pointer;
+}
+

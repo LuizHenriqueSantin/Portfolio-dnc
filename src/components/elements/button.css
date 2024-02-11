@@ -1,0 +1,21 @@
+.btn{
+    background-color: #74FAC0;
+    font-weight: bolder;
+    border: none;
+    font-size: 1.75vh;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #010b28;
+    color: white;
+}
+
+#pres{
+    padding-right: 1vw;
+    padding-left: 1vw;
+    height: 4vh;
+    border-radius: 2vh;
+}
