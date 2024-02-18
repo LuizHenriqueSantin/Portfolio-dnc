@@ -14,6 +14,7 @@ function Presentation(){
             toType()
         }, delta)
         return() => {clearInterval(ticker)}
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [txt])
 
     const toType = () => {
@@ -38,7 +39,7 @@ function Presentation(){
         <div className={styles.presentation} id='presentation'>
             <strong>Bem vindo ao meu portifólio</strong>
             <h1>Olá, eu sou {txt}</h1>
-            <p>Sou um apaixonado por texnologia e solucões inovadoras. Como Desenvolvedor FullStack, eu tenho o compromisso de resolver problemas complexos e trazer resultados exepcionais para os negócios. Meus projetos já geraram milhões de reais em receita anual e estou sempre em busca de novos desafios para superar.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <br/>
             <Btn text="Conecte-se comigo" on="pres" link="https://github.com/LuizHenriqueSantin"></Btn>
         </div>
