@@ -39,7 +39,7 @@ function Presentation(){
         <div className={styles.presentation} id='presentation'>
             <strong>Bem vindo ao meu portifólio</strong>
             <h1>Olá, eu sou {txt}</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Sou fascinado por tecnologia e soluçôes inovadoras.<br />Como desenvolvedor FullStack tenho a habilidade de desenvolver sistemas dinâmicos de fácil usabilidade para a resolução das necessidades dos clientes.<br/>Estou em constante evolução para aprimorar meus conhecimentos e habilidades na área, venho desenvolvendo projetos para pequenas empresas e para evolução pessoal.<br/>Segue abaixo um pouco do meu trabalho:</p>
             <br/>
             <Btn text="Conecte-se comigo" on="pres" link="https://github.com/LuizHenriqueSantin"></Btn>
         </div>
